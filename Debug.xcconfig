@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  Flickr Finder
+//
+//  Created by Antonio Allen on 4/6/19.
+//  Copyright © 2019 Antonio Allen. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = FF Debug
+APP_VERSION = 1.0
+APP_BUNDLE_ID = com.antonioallen.Flickr-Finder-Debug
+APP_LOGO = logo_main_production
