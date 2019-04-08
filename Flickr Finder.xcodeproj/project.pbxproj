@@ -14,7 +14,6 @@
 		556B1823225BA39400FD7A1E /* PhotoTagCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B1822225BA39400FD7A1E /* PhotoTagCoordinator.swift */; };
 		556B1825225BA9BD00FD7A1E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B1824225BA9BD00FD7A1E /* Settings.swift */; };
 		556B183F225BD41200FD7A1E /* LanguageStringIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B183E225BD41200FD7A1E /* LanguageStringIds.swift */; };
-		556B1841225BD59800FD7A1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 556B1840225BD59800FD7A1E /* Localizable.strings */; };
 		556B1843225BD89C00FD7A1E /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B1842225BD89C00FD7A1E /* UIImageExt.swift */; };
 		55C51677225A3B96006D1045 /* FlickrRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C51676225A3B96006D1045 /* FlickrRouter.swift */; };
 		55C5167A225A3FD3006D1045 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C51679225A3FD3006D1045 /* HTTPMethod.swift */; };
@@ -33,6 +32,7 @@
 		55C5169B225AB3A3006D1045 /* SearchBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5169A225AB3A3006D1045 /* SearchBaseViewController.swift */; };
 		55C5169D225ABB53006D1045 /* SingleListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5169C225ABB53006D1045 /* SingleListItemCell.swift */; };
 		55C516A0225ABEB4006D1045 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5169F225ABEB4006D1045 /* SearchHeaderView.swift */; };
+		55D6D30C225BF246008E753E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55D6D30E225BF246008E753E /* Localizable.strings */; };
 		55E1D36C2259BC68003D3249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D36B2259BC68003D3249 /* AppDelegate.swift */; };
 		55E1D3742259BC68003D3249 /* Flickr_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3722259BC68003D3249 /* Flickr_Finder.xcdatamodeld */; };
 		55E1D3762259BC6A003D3249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E1D3752259BC6A003D3249 /* Assets.xcassets */; };
@@ -92,7 +92,6 @@
 		556B1822225BA39400FD7A1E /* PhotoTagCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTagCoordinator.swift; sourceTree = "<group>"; };
 		556B1824225BA9BD00FD7A1E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		556B183E225BD41200FD7A1E /* LanguageStringIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageStringIds.swift; sourceTree = "<group>"; };
-		556B1840225BD59800FD7A1E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		556B1842225BD89C00FD7A1E /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
 		55C51676225A3B96006D1045 /* FlickrRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrRouter.swift; sourceTree = "<group>"; };
 		55C51679225A3FD3006D1045 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -111,6 +110,9 @@
 		55C5169A225AB3A3006D1045 /* SearchBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBaseViewController.swift; sourceTree = "<group>"; };
 		55C5169C225ABB53006D1045 /* SingleListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleListItemCell.swift; sourceTree = "<group>"; };
 		55C5169F225ABEB4006D1045 /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		55D6D30D225BF246008E753E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		55D6D30F225BF2CF008E753E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		55D6D310225BF2CF008E753E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		55E1D3682259BC68003D3249 /* Flickr Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E1D36B2259BC68003D3249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E1D3732259BC68003D3249 /* Flickr_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flickr_Finder.xcdatamodel; sourceTree = "<group>"; };
@@ -359,7 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				556B183E225BD41200FD7A1E /* LanguageStringIds.swift */,
-				556B1840225BD59800FD7A1E /* Localizable.strings */,
+				55D6D30E225BF246008E753E /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -584,6 +586,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 55E1D35F2259BC68003D3249;
 			productRefGroup = 55E1D3692259BC68003D3249 /* Products */;
@@ -603,7 +606,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E1D3792259BC6A003D3249 /* LaunchScreen.storyboard in Resources */,
-				556B1841225BD59800FD7A1E /* Localizable.strings in Resources */,
+				55D6D30C225BF246008E753E /* Localizable.strings in Resources */,
 				55E1D3762259BC6A003D3249 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -838,10 +841,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		55D6D30E225BF246008E753E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D6D30D225BF246008E753E /* en */,
+				55D6D310225BF2CF008E753E /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		55E1D3772259BC6A003D3249 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				55E1D3782259BC6A003D3249 /* Base */,
+				55D6D30F225BF2CF008E753E /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -854,6 +867,7 @@
 			baseConfigurationReference = 55E1D3A92259BEC6003D3249 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -916,6 +930,7 @@
 			baseConfigurationReference = 55E1D3A82259BEBB003D3249 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1098,6 +1113,7 @@
 			baseConfigurationReference = 55E1D3AA2259BED3003D3249 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
