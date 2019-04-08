@@ -10,7 +10,7 @@ import Foundation
 
 public class Dynamic<T> {
     
-    public typealias Listener = (T) -> ()
+    public typealias Listener = (T) -> Void
     public var listener: Listener?
     
     public var value: T {

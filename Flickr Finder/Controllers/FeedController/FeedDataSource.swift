@@ -10,7 +10,7 @@ import IGListKit
 
 class FeedDataSource: NSObject {
     
-    var data:[ListDiffable] = []
+    var data: [ListDiffable] = []
     var loading = false
     
     override init() {
@@ -45,6 +45,6 @@ extension FeedDataSource: ListAdapterDataSource {
     }
     
     func listAdapter(_ listAdapter: ListAdapter, move object: Any, from previousObjects: [Any], to objects: [Any]) {
-        data = objects as! [ListDiffable]
+        data = objects as? [ListDiffable] ?? []
     }
 }

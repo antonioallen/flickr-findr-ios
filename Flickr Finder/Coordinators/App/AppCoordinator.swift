@@ -11,12 +11,16 @@ import UIKit
 class AppCoordinator: FFCoordinator {
     
     private var window: UIWindow
+    private var networkService: NetworkService
     
     public var rootViewController: UIViewController {
         return navigationController
     }
     
-    init(in window: UIWindow) {
+    init(in window: UIWindow, networkService: NetworkService) {
+        
+        // Set network service
+        self.networkService = networkService
         
         // Initialize the window
         self.window = window
@@ -29,7 +33,7 @@ class AppCoordinator: FFCoordinator {
     }
     
     public override func start() {
-        let coordinator = FeedCoordinator(with: navigationController)
+        let coordinator = FeedCoordinator(networkService: networkService, with: navigationController)
         addChild(coordinator: coordinator)
         coordinator.start()
     }

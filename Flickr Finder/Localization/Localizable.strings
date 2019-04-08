@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Flickr Finder
+
+  Created by Antonio Allen on 4/8/19.
+  Copyright © 2019 Antonio Allen. All rights reserved.
+*/
+
+////////////////////////////////////////
+// Common / Multi-Use Strings
+////////////////////////////////////////
+Common.close = "Close";
+Common.clear = "Clear";
+Common.error = "Error";
+Common.retry = "Retry";
+Common.defaultError = "There was an unexpected problem loading the photos. Please try again. Error: %@";
+
+////////////////////////////////////////
+// FeedViewController | FeedViewController.swift
+////////////////////////////////////////
+
+FeedViewController.title = "Trending";
+FeedViewController.searchHint = "Search Photos";
+
+////////////////////////////////////////
+// SearchSection | SearchSection Enum
+////////////////////////////////////////
+
+SearchSection.trending = "Trending";
+SearchSection.recent = "Recent";

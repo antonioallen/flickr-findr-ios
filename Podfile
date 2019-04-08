@@ -3,7 +3,7 @@
 
 target 'Flickr Finder' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  use_frameworks! 
 
   # Pods for Flickr Finder
 
@@ -16,7 +16,7 @@ target 'Flickr Finder' do
   end
 
   target 'Flickr FinderUITests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
 

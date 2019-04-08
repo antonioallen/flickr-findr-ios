@@ -10,11 +10,14 @@ import IGListKit
 
 struct FeedViewControllerViewModel {
     var items: Dynamic<[FeedPhotoCellData]>
+    var search: Dynamic<SearchBaseViewControllerViewModel>
+    weak var searchDelegate: SearchBaseViewControllerDelegate!
 }
 
 protocol FeedViewControllerDelegate: class {
     func onSearchTextChanged(searchText: String?)
-    func onLoadMorePhotos(completion: @escaping ([FeedPhotoCellData]) -> Void)
+    func onLoadMorePhotos(completion: @escaping () -> Void)
+    func onPhotoSelected(index: IndexPath, item: FeedPhotoCellData)
 }
 
 private struct K {
@@ -28,6 +31,7 @@ class FeedViewController: FFViewController {
 
     var viewModel: FeedViewControllerViewModel
     weak var delegate: FeedViewControllerDelegate?
+    var searchBaseController: SearchBaseViewController?
     
     lazy var collectionView: UICollectionView = {
         let view = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
@@ -49,7 +53,7 @@ class FeedViewController: FFViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Flickr Findr"
+        title = LSI.FeedViewController.title.localize()
 
     }
 
@@ -94,10 +98,14 @@ class FeedViewController: FFViewController {
     
     func setupSearchBarController() {
         
+        // Setup search view controller
+        searchBaseController = SearchBaseViewController(viewModel: viewModel.search.value)
+        searchBaseController?.delegate = viewModel.searchDelegate
+        
         // Setup search controller
-        searchController = UISearchController(searchResultsController: nil)
-        searchController?.searchResultsUpdater = self
+        searchController = UISearchController(searchResultsController: searchBaseController!)
         searchController?.searchBar.autocapitalizationType = .none
+        searchController?.searchResultsUpdater = self
         searchController?.delegate = self
         
         if #available(iOS 11.0, *) {
@@ -109,9 +117,7 @@ class FeedViewController: FFViewController {
             navigationItem.hidesSearchBarWhenScrolling = false
         }
         
-        searchController?.obscuresBackgroundDuringPresentation = false
-        searchController?.searchBar.placeholder = "Search Photos"
-        searchController?.dimsBackgroundDuringPresentation = false // The default is true.
+        searchController?.searchBar.placeholder = LSI.FeedViewController.searchHint.localize()
         searchController?.searchBar.delegate = self // Monitor when the search button is tapped.
         
         // Defines presentation context
@@ -124,34 +130,47 @@ class FeedViewController: FFViewController {
 extension FeedViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.resignFirstResponder()
-    }
-    
-}
-
-extension FeedViewController: UISearchControllerDelegate {
-    func didPresentSearchController(_ searchController: UISearchController) {
         
-    }
-}
-
-// MARK: - UISearchResultsUpdating
-
-extension FeedViewController: UISearchResultsUpdating {
-    
-    func updateSearchResults(for searchController: UISearchController) {
+        searchBar.resignFirstResponder()
         
         let whitespaceCharacterSet = CharacterSet.whitespaces
         
-        guard let searchString = searchController.searchBar.text?.trimmingCharacters(in: whitespaceCharacterSet).lowercased() else {
+        guard let searchString = searchBar.text?.trimmingCharacters(in: whitespaceCharacterSet).lowercased() else {
             
             delegate?.onSearchTextChanged(searchText: nil)
             
             return
         }
         
-        delegate?.onSearchTextChanged(searchText: searchString)
+        // Remove text
+        searchBar.text = nil
         
+        searchController?.dismiss(animated: true, completion: { [weak self] in
+            self?.delegate?.onSearchTextChanged(searchText: searchString)
+        })
+        
+    }
+    
+}
+
+extension FeedViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        searchController.searchResultsController?.view.isHidden = false
+    }
+}
+
+extension FeedViewController: UISearchControllerDelegate {
+    
+    func willPresentSearchController(_ searchController: UISearchController) {
+        run(on: .main) {
+            searchController.searchResultsController?.view.isHidden = false
+        }
+    }
+    
+    func didPresentSearchController(_ searchController: UISearchController) {
+        run(on: .main) {
+            searchController.searchResultsController?.view.isHidden = false
+        }
     }
 }
 
@@ -169,22 +188,25 @@ extension FeedViewController {
 extension FeedViewController: UICollectionViewDelegate, UIScrollViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let data = viewModel.items.value[indexPath.section]
+        delegate?.onPhotoSelected(index: indexPath, item: data)
     }
     
-    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView,
+                                   withVelocity velocity: CGPoint,
+                                   targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        
         let distance = scrollView.contentSize.height - (targetContentOffset.pointee.y + scrollView.bounds.height)
         
         if !dataSource.loading && distance < 200 {
             dataSource.loading = true
             adapter.performUpdates(animated: true, completion: nil)
             
-            self.delegate?.onLoadMorePhotos(completion: { [weak self] (photos) in
+            self.delegate?.onLoadMorePhotos(completion: { [weak self] in
                 guard let self = self else { return }
                 
                 DispatchQueue.main.async {
                     self.dataSource.loading = false
-                    self.viewModel.items.value.append(contentsOf: photos)
                     self.adapter.performUpdates(animated: true, completion: nil)
                 }
             })

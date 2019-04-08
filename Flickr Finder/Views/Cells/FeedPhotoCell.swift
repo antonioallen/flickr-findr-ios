@@ -89,17 +89,6 @@ class FeedPhotoCell: UICollectionViewCell {
         label.text = nil
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        // Get view bounds
-        let bounds = contentView.bounds
-        
-        // Adjust view posistion
-        activityIndicator.center = CGPoint(x: bounds.width / K.two, y: bounds.height / K.two)
-        
-    }
-    
     func setConstraints() {
         
         // Set image content view constraints

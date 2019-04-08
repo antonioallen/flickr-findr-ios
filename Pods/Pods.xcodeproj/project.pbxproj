@@ -21,6 +21,7 @@
 		1B91F76B81D4E1222B495AE5B25D0AF7 /* IGListAdapterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD5E0D3987B82B27E69D410BC177F05 /* IGListAdapterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1BA3B02F18F0FC400749B6B61A98B372 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A609914111CCF9AF3FC3CEC3FF8803BA /* IGListSingleSectionController.m */; };
 		1CF732A606E59EB5A0037EEED16936FC /* IGListAdapterUpdateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 68045A91ECC395F8CA782893F046DBE4 /* IGListAdapterUpdateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B897B0E6B0CE43D59CC3D17257EBFD /* Pods-Flickr Finder-Flickr FinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F666C1D3E9B8A8F7A5032B5BC4C52A19 /* Pods-Flickr Finder-Flickr FinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2194E24889FED031DB50EA3A883AA6D3 /* IGListCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE619AC0FEA8ED685CF9B5847F3550EF /* IGListCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23D370B3891D0135BB0FD6FCDDB8ECE2 /* IGListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A3E6A4E7E37031A72D57D6216173C5 /* IGListSectionController.m */; };
 		25BD3E63A47ABB2706DE6A59342CBFEE /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB06815DAB66AA2676F2F87A882C282D /* IGListIndexPathResult.m */; };
@@ -28,11 +29,11 @@
 		26FDFD277D067A0DA0E852FE39C4E5E2 /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3750BFE1730FD87AF1B8A8075578C4 /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		278DEAF719F1B6C3B8D4D6F3F1A4CA27 /* IGListAdapterMoveDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D98CA4965C6F1C4C4B733B28BBE3A0C /* IGListAdapterMoveDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29000BE90B661676AE3D4F7B23607D4B /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 686A6E7C94C31151637543EE206F27B2 /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		292B7D7E2D9F0DCBA0AEBC7BED70EBE7 /* Pods-Flickr FinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21E88BBDF7EB2C21E3589C48A825C4A /* Pods-Flickr FinderTests-dummy.m */; };
+		292B7D7E2D9F0DCBA0AEBC7BED70EBE7 /* Pods-Flickr FinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD76735E0293019D421F2E68B15B88 /* Pods-Flickr FinderTests-dummy.m */; };
 		2A1B3DC60FF1CA615B9C9B660A71F307 /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B2943288FAFA1E3371C8AF741244F8 /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2ED9F47D08AD32D04ED7BE876649DC90 /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FD06453F5CA453CA13932583B171214E /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC30C9A615FB7D2013151D46624D13C /* IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 916CEF3824942AEE1A81CE9E4B267792 /* IGListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36D53EEB271AE6B0F79F88AC46A3ECF4 /* Pods-Flickr FinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426531FA3AF04E9EBDFD1D2E03E75869 /* Pods-Flickr FinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D53EEB271AE6B0F79F88AC46A3ECF4 /* Pods-Flickr FinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AC549381F82E2D1FFD9655B3AEB8F0 /* Pods-Flickr FinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37051C8CDD4637C0BF19152DC1EA0570 /* NSNumber+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E5F5F6E650273504C219D057BDE17 /* NSNumber+IGListDiffable.m */; };
 		39629D600FB0BC69A45A2B67572DAEE2 /* IGListScrollDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BCCA2EEE3056C337EE481CE3F225D3 /* IGListScrollDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B1FC21E3DAF3E627618F1ECCE11E408 /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B905C1D76CA3A40CF428F21891DC46E1 /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -40,7 +41,6 @@
 		41B5C9948200D7A2C891DA1955FFBCD5 /* IGListCollectionViewLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = E9872C15D9EE47C7F1A26190087119B5 /* IGListCollectionViewLayout.mm */; };
 		43CBECBE376081BECCD802D0B2C58AA6 /* IGListAdapterUpdaterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889334C11EA36C4274AF6E5C2AC0F9A /* IGListAdapterUpdaterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45BF3FF4F6031D0CA2FCBF25237A76AF /* IGListAdapter+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E513AFA72D093B0E198DEC3032FC85E1 /* IGListAdapter+UICollectionView.m */; };
-		499241C6218543D990076D12927FF91C /* Pods-Flickr FinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C950C1E97A9077ED4A2D3DA428B6B027 /* Pods-Flickr FinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B234180698BAD8AC870A822A45DA65C /* IGListBindingSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EC23F59BD3015C26B378740C12ED59 /* IGListBindingSectionController.m */; };
 		4D01BD5E924187BDE650F444AC4C7BF5 /* IGListBatchUpdateData+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F98162E1AF40F9A0391EC0C9ED9013A /* IGListBatchUpdateData+DebugDescription.m */; };
 		4D62B6530026CB8A95CE8A8F2BCC0C75 /* IGListBatchUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D0F68214C9C04FE3C7CBA82E263890 /* IGListBatchUpdates.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -55,6 +55,7 @@
 		6CA128D84E436EA24C2A28C22B46AEDB /* IGListCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E9660B15031CB5DBF6376C197D2622 /* IGListCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DEB94A2E496ABB0949CF1FA96CBC3A7 /* IGListAdapter+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 878490D3D139211C79920C1A819140B8 /* IGListAdapter+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6F8398A38FBD1E5DE3AB2F0B4B2E4573 /* UICollectionView+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EA9482B10F189FC5F5870DCDCED904 /* UICollectionView+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		720E18CEE69A94F6AE73B1948ADE412A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		72DA039AE9B494713195CE02982357F7 /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EB841B51E7915F7B2A306CA79F2D7D /* IGListIndexSetResult.m */; };
 		738BB53699A8562930F63FE87D27ECB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		74F0042AB9AC4139EBC61623277AA31B /* IGListSectionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EB0A21C4255E22D5B1E49990B2EC3D /* IGListSectionMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -73,7 +74,7 @@
 		93217690633378C0A2AF085832628F1D /* IGListGenericSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAEEE8C2A16FFBE6C92610F7B548FAB /* IGListGenericSectionController.m */; };
 		93D190F8AAAE7C3254D401792B358AF6 /* IGListReloadDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAAD59C90A6A648FDB484AFA19DDC7 /* IGListReloadDataUpdater.m */; };
 		947CCE3EC2B28208293350E534EB2DAA /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947208C7C0C5500DF5CD1F1BFB749AA /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9530F42270BD89028D79E9F3E836D2A7 /* Pods-Flickr Finder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DACB0D0BDD52EA3A2466BC71E7B00F3 /* Pods-Flickr Finder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9530F42270BD89028D79E9F3E836D2A7 /* Pods-Flickr Finder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B63C1C9FFDBCED3D26BE12974328A5C6 /* Pods-Flickr Finder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96979567EA9E65EBBC741CFDE698E096 /* IGListSectionMap+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF8ED21112C247E02C5EA79922F09A4 /* IGListSectionMap+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		97073779C1697D62E9C4B936867F5E18 /* IGListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3048DB4523CD5F654C3A8A7DECA7589D /* IGListAdapter.m */; };
 		98EDFD8ECA1F381AE7B4EDA6ACC4DC49 /* IGListAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F308E7AA58F4C02F2F94475F32628A /* IGListAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,13 +87,12 @@
 		A379F0E5266FF7D0C980513735FA8517 /* IGListReloadDataUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3073B8D2036994761FF8F431F10914 /* IGListReloadDataUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49CE6757C6C342A0B0E29C3030C69EF /* UICollectionViewLayout+InteractiveReordering.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B6E6B4EAA9D7E80FEACEE04B615EB0 /* UICollectionViewLayout+InteractiveReordering.m */; };
 		A7E6452FDE93EAA6B46C3C55AF161B5F /* IGListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB7DDAE07BCEF3D6BB3DAA3354B0C6B /* IGListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A94BE968D9E03BFC6F501BBAF80F1F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		A9DB088035446537ABBC8CAC80AE55EF /* Pods-Flickr FinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645F51AAE9A2DE922AA6975D6666D378 /* Pods-Flickr FinderUITests-dummy.m */; };
 		AB5C66D85C6C8B86297ED82E3EC9B249 /* IGListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE7C3AB18F61CB26C60D5AEF456A62 /* IGListKit-dummy.m */; };
 		ACF83F0574E483F357AFB8026663D8E3 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B4B5A65C9A151772D91156EFADA62A /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AE6B49D036DEE1A555559208D001A42B /* IGListStackedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4BAB1129F838594ADF2383CB38E755 /* IGListStackedSectionController.m */; };
 		AF94F7DDB906FD899074C2796BE88DFE /* IGListBatchUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A34DB3343ACD11740846028AE0D7000D /* IGListBatchUpdates.m */; };
 		B0A654B87B960760C86CF7505F6389EF /* IGListAdapterUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 65723C75C58FD97C57B5E3C0C3F91E87 /* IGListAdapterUpdater.m */; };
+		B31383F27C9DB78D62A43771CF315950 /* Pods-Flickr Finder-Flickr FinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7D8D84B973C8E20463811A93C6B8D7 /* Pods-Flickr Finder-Flickr FinderUITests-dummy.m */; };
 		B38F8682131AF22CE53EF298F1164C62 /* IGListAdapter+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5DEE7063A716F6101A8EDE8DCD39AD /* IGListAdapter+UICollectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B5E7545E5E8844EB1795EC285C3FF8C4 /* IGListSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2E1D732E2AC0EE017C870B01F061AD /* IGListSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6BAC35AF50B767A4E47B5F6713A6E49 /* IGListDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3645D1AAABFF7220F162E6A001E90B1C /* IGListDisplayHandler.m */; };
@@ -120,7 +120,7 @@
 		EA56BC450B00FEB1239D638F448A2405 /* IGListAdapterUpdater+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3002FC1EAA2D41F82F70A95CA1BC459F /* IGListAdapterUpdater+DebugDescription.m */; };
 		EA57111542CA6CA93399D5214296A723 /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ECC8F5D0DE4DB15B2859E90F3BC1F7 /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EC86CFFAC1A15E049C1383E42261814D /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 755A7D8D1AA1F191D9CDF06825AC0046 /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0AB38AE13F4A670DBE91349FFA05CF7 /* Pods-Flickr Finder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4102DBAC674FC8A78CB4301BC81671 /* Pods-Flickr Finder-dummy.m */; };
+		F0AB38AE13F4A670DBE91349FFA05CF7 /* Pods-Flickr Finder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D55E967F8409B64AE919226B81434CD0 /* Pods-Flickr Finder-dummy.m */; };
 		F1748BF8136CAB1557BE754A06544D88 /* IGListDiff.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEB1EAA38EC3D739E2C070C47650651A /* IGListDiff.mm */; };
 		F731D1C518048B74B2338163CBBBE6DE /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 166AA4B02565A5D1B152D8FB83D2BAE1 /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7924BA9099C7AF65C090540EC16A282 /* IGListUpdatingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE7C0F86FC1B4FC8254E97C40EC44E7 /* IGListUpdatingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -137,14 +137,14 @@
 			remoteGlobalIDString = 1573A101CF75EC169E0DBC17F454CF9D;
 			remoteInfo = "Pods-Flickr Finder";
 		};
-		60E9424CF3DFBB0EF6EB2C2C766B7D81 /* PBXContainerItemProxy */ = {
+		7A479CF9711EF1D70EA65D0584C4E42D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1573A101CF75EC169E0DBC17F454CF9D;
-			remoteInfo = "Pods-Flickr Finder";
+			remoteGlobalIDString = 4037B0EEEA72C4D03DFE738C64AE6171;
+			remoteInfo = IGListKit;
 		};
-		7A479CF9711EF1D70EA65D0584C4E42D /* PBXContainerItemProxy */ = {
+		AA06252D294EDA0B2BC1CC1B3CC48BC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -154,26 +154,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001D3921725BD124438F6FF5C12E408B /* Pods-Flickr Finder-Flickr FinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr Finder-Flickr FinderUITests.modulemap"; sourceTree = "<group>"; };
 		025182A59E96C55069F8475CB8201EEF /* IGListSectionMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionMap.m; path = Source/Internal/IGListSectionMap.m; sourceTree = "<group>"; };
 		03ADA24A55DBA6F42735B1893DDD3952 /* IGListBatchUpdateData+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListBatchUpdateData+DebugDescription.h"; path = "Source/Internal/IGListBatchUpdateData+DebugDescription.h"; sourceTree = "<group>"; };
 		03B6E6B4EAA9D7E80FEACEE04B615EB0 /* UICollectionViewLayout+InteractiveReordering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewLayout+InteractiveReordering.m"; path = "Source/Internal/UICollectionViewLayout+InteractiveReordering.m"; sourceTree = "<group>"; };
 		06BCCA2EEE3056C337EE481CE3F225D3 /* IGListScrollDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListScrollDelegate.h; path = Source/IGListScrollDelegate.h; sourceTree = "<group>"; };
 		09795230FF8DAC893DA990CF5F5C32CC /* IGListDiffKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiffKit.h; path = Source/Common/IGListDiffKit.h; sourceTree = "<group>"; };
 		0C5EDF31B91572C3878A14AE31E9B96F /* IGListBindingSectionController+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListBindingSectionController+DebugDescription.m"; path = "Source/Internal/IGListBindingSectionController+DebugDescription.m"; sourceTree = "<group>"; };
-		14A60DF88737C82042FB883503C5E5A2 /* Pods-Flickr FinderTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.staging.xcconfig"; sourceTree = "<group>"; };
-		161909BB4FAF12FE0E573CB1FC0A516C /* Pods-Flickr FinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr FinderTests.modulemap"; sourceTree = "<group>"; };
 		166AA4B02565A5D1B152D8FB83D2BAE1 /* IGListDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiff.h; path = Source/Common/IGListDiff.h; sourceTree = "<group>"; };
-		191F151C61D86AFB204D5A874A00832E /* Pods-Flickr Finder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-acknowledgements.plist"; sourceTree = "<group>"; };
+		1675AB94034306DC5FF0FB3400BDCF05 /* Pods_Flickr_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_FinderTests.framework; path = "Pods-Flickr FinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A75B811A18D47090D4D2C4895B7E480 /* IGListDebugger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebugger.m; path = Source/Internal/IGListDebugger.m; sourceTree = "<group>"; };
+		1B1789A8F94A38D08DD300DAE42FEEA2 /* Pods-Flickr Finder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr Finder-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BE41EBA443EAC216E0AE178716DAD38 /* IGListArrayUtilsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListArrayUtilsInternal.h; path = Source/Common/Internal/IGListArrayUtilsInternal.h; sourceTree = "<group>"; };
+		1BFD76735E0293019D421F2E68B15B88 /* Pods-Flickr FinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr FinderTests-dummy.m"; sourceTree = "<group>"; };
 		1C3750BFE1730FD87AF1B8A8075578C4 /* IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateData.h; path = Source/Common/IGListBatchUpdateData.h; sourceTree = "<group>"; };
+		1E90060E935FB24F2176024152A38E1D /* Pods-Flickr FinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr FinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EEEE8176196F247EF15B2F7146129F8 /* IGListDebuggingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebuggingUtilities.m; path = Source/Internal/IGListDebuggingUtilities.m; sourceTree = "<group>"; };
 		1F98162E1AF40F9A0391EC0C9ED9013A /* IGListBatchUpdateData+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListBatchUpdateData+DebugDescription.m"; path = "Source/Internal/IGListBatchUpdateData+DebugDescription.m"; sourceTree = "<group>"; };
+		22B5DE008D5BAF728B690C28A248C70A /* Pods-Flickr Finder-Flickr FinderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-Flickr FinderUITests-Info.plist"; sourceTree = "<group>"; };
 		23EC23F59BD3015C26B378740C12ED59 /* IGListBindingSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBindingSectionController.m; path = Source/IGListBindingSectionController.m; sourceTree = "<group>"; };
 		247142350B40C34A22CE4FD4FCFC20EB /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
 		295D6CF4D20D3C9E230785CB5D716DB4 /* IGListStackedSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionController.h; path = Source/IGListStackedSectionController.h; sourceTree = "<group>"; };
-		299D5A18C5B784E6E2B3A8111BCD5012 /* Pods-Flickr Finder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-Info.plist"; sourceTree = "<group>"; };
-		29EA282D9BDF7927DAF1BD749E3C0968 /* Pods-Flickr FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2AE65589063400CC0B260E697A955E00 /* IGListWorkingRangeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeHandler.h; path = Source/Internal/IGListWorkingRangeHandler.h; sourceTree = "<group>"; };
 		2B17BDBD43485417E5C4EEC6DB2DF3F6 /* IGListKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGListKit-Info.plist"; sourceTree = "<group>"; };
 		2D87A0B2D34ADB9941A106CF84E28784 /* IGListCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayout.h; path = Source/IGListCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -183,15 +184,16 @@
 		34FCE3DC2CFD39D0BB276BC8A60E414B /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 		350AA4BB59EC4B132B5AF5BAD503BCCC /* IGListDebuggingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDebuggingUtilities.h; path = Source/Internal/IGListDebuggingUtilities.h; sourceTree = "<group>"; };
 		3645D1AAABFF7220F162E6A001E90B1C /* IGListDisplayHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDisplayHandler.m; path = Source/Internal/IGListDisplayHandler.m; sourceTree = "<group>"; };
+		38127DE2AE73833F8A23C899C0561B64 /* Pods-Flickr Finder-Flickr FinderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flickr Finder-Flickr FinderUITests-frameworks.sh"; sourceTree = "<group>"; };
 		382689DD61E92E41335BDA6DCB3221F3 /* IGListKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListKit.xcconfig; sourceTree = "<group>"; };
 		3A13964218CA045F1CE951D72C88D632 /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
+		3C6E95C22899ED2D87AC13502288DC83 /* Pods-Flickr Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.release.xcconfig"; sourceTree = "<group>"; };
 		3DA31885E6BB1FC1EA9D4052F2CD6128 /* IGListAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDelegate.h; path = Source/IGListAdapterDelegate.h; sourceTree = "<group>"; };
 		3E4D2519F4F996571266564AE967CEA2 /* IGListCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListCollectionView.m; path = Source/IGListCollectionView.m; sourceTree = "<group>"; };
 		3FCAAD59C90A6A648FDB484AFA19DDC7 /* IGListReloadDataUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadDataUpdater.m; path = Source/IGListReloadDataUpdater.m; sourceTree = "<group>"; };
 		40AB87E003E5E55586E74E7CD07BBC25 /* IGListMoveIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndex.h; path = Source/Common/IGListMoveIndex.h; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		426531FA3AF04E9EBDFD1D2E03E75869 /* Pods-Flickr FinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr FinderTests-umbrella.h"; sourceTree = "<group>"; };
-		46FB4BC118E1C6C300168966B168E445 /* Pods-Flickr FinderUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		48AD2B5A76B78CED160D2AE4BFAEF589 /* Pods-Flickr Finder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-acknowledgements.plist"; sourceTree = "<group>"; };
 		4947208C7C0C5500DF5CD1F1BFB749AA /* IGListAdapterDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDataSource.h; path = Source/IGListAdapterDataSource.h; sourceTree = "<group>"; };
 		4C64C3F7586FDAE5530506C54C33300C /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGListKit.modulemap; sourceTree = "<group>"; };
 		4E1ED9C179630036E7AA5E4375A944B2 /* IGListBindingSectionController+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListBindingSectionController+DebugDescription.h"; path = "Source/Internal/IGListBindingSectionController+DebugDescription.h"; sourceTree = "<group>"; };
@@ -199,25 +201,21 @@
 		549C9D591A63D3F24756B72CBCA45E29 /* IGListMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMacros.h; path = Source/Common/IGListMacros.h; sourceTree = "<group>"; };
 		54B2943288FAFA1E3371C8AF741244F8 /* IGListIndexSetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResult.h; path = Source/Common/IGListIndexSetResult.h; sourceTree = "<group>"; };
 		566C122861CF271661BE5C0BF955EAB4 /* IGListSectionMap+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListSectionMap+DebugDescription.m"; path = "Source/Internal/IGListSectionMap+DebugDescription.m"; sourceTree = "<group>"; };
+		59BE5B5CD1714E3D32BD3680FB44B882 /* Pods-Flickr FinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr FinderTests.modulemap"; sourceTree = "<group>"; };
 		5D98CA4965C6F1C4C4B733B28BBE3A0C /* IGListAdapterMoveDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterMoveDelegate.h; path = Source/IGListAdapterMoveDelegate.h; sourceTree = "<group>"; };
-		645F51AAE9A2DE922AA6975D6666D378 /* Pods-Flickr FinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr FinderUITests-dummy.m"; sourceTree = "<group>"; };
+		6526FB7C38D035A8AEDD9D2DBBE6EEB6 /* Pods-Flickr FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		65723C75C58FD97C57B5E3C0C3F91E87 /* IGListAdapterUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterUpdater.m; path = Source/IGListAdapterUpdater.m; sourceTree = "<group>"; };
 		65F3B90698A5F593E2133CFCAA589596 /* IGListSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionControllerInternal.h; path = Source/Internal/IGListSectionControllerInternal.h; sourceTree = "<group>"; };
 		68045A91ECC395F8CA782893F046DBE4 /* IGListAdapterUpdateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdateListener.h; path = Source/IGListAdapterUpdateListener.h; sourceTree = "<group>"; };
 		686A6E7C94C31151637543EE206F27B2 /* IGListSingleSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSingleSectionController.h; path = Source/IGListSingleSectionController.h; sourceTree = "<group>"; };
 		6B20A41561B1545D0079EAA913415E03 /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
-		6D0B75D1FD0683D0C3E8AFBD235C7408 /* Pods-Flickr Finder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr Finder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		709ACB3815EB92540C51091E7A39A56A /* Pods-Flickr Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.release.xcconfig"; sourceTree = "<group>"; };
-		72ACB847383DECD96A35335F6D33CF94 /* Pods-Flickr FinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		731883A32F9DE8259453C3233A974D1A /* IGListMoveIndexPathInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPathInternal.h; path = Source/Common/Internal/IGListMoveIndexPathInternal.h; sourceTree = "<group>"; };
-		7335FB38DFB0C3C60F0E0D4FA72C65D7 /* Pods-Flickr FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		755A7D8D1AA1F191D9CDF06825AC0046 /* IGListIndexPathResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResult.h; path = Source/Common/IGListIndexPathResult.h; sourceTree = "<group>"; };
 		7809DF7C2A7471C1B223B09D4A6BB8B7 /* IGListAdapterUpdater+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapterUpdater+DebugDescription.h"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.h"; sourceTree = "<group>"; };
 		79D7B1222A1E4061E0EB237F6E2CB9C4 /* IGListAdapter+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapter+DebugDescription.m"; path = "Source/Internal/IGListAdapter+DebugDescription.m"; sourceTree = "<group>"; };
 		7A2E1D732E2AC0EE017C870B01F061AD /* IGListSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionController.h; path = Source/IGListSectionController.h; sourceTree = "<group>"; };
-		7B204C4DC0A76683A5B2C46358F6135A /* Pods_Flickr_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_FinderUITests.framework; path = "Pods-Flickr FinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEC7B4DB7F2E3E5F56E8FE39C4ADDDF /* Pods-Flickr Finder.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.staging.xcconfig"; sourceTree = "<group>"; };
 		7B8592BBDC77EC484409A952A31B9554 /* UICollectionView+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+DebugDescription.m"; path = "Source/Internal/UICollectionView+DebugDescription.m"; sourceTree = "<group>"; };
-		7DACB0D0BDD52EA3A2466BC71E7B00F3 /* Pods-Flickr Finder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr Finder-umbrella.h"; sourceTree = "<group>"; };
 		80EB0A21C4255E22D5B1E49990B2EC3D /* IGListSectionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionMap.h; path = Source/Internal/IGListSectionMap.h; sourceTree = "<group>"; };
 		81B41B984CEAF32FBEAC70EC4FF16665 /* IGListBatchContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchContext.h; path = Source/IGListBatchContext.h; sourceTree = "<group>"; };
 		83F5CA6E87EEB1BC63C1DA244B6ABACC /* NSString+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IGListDiffable.m"; path = "Source/Common/NSString+IGListDiffable.m"; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 		89EA9482B10F189FC5F5870DCDCED904 /* UICollectionView+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DebugDescription.h"; path = "Source/Internal/UICollectionView+DebugDescription.h"; sourceTree = "<group>"; };
 		8B7EB3E7087AD92F94DA4BC339A04180 /* IGListStackedSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionControllerInternal.h; path = Source/Internal/IGListStackedSectionControllerInternal.h; sourceTree = "<group>"; };
 		8C4BAB1129F838594ADF2383CB38E755 /* IGListStackedSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListStackedSectionController.m; path = Source/IGListStackedSectionController.m; sourceTree = "<group>"; };
-		8D641D96432351E1444F459FB8D5F29E /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F54F1C23DBFBCE7CE640B987E3090B3 /* IGListMoveIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndex.m; path = Source/Common/IGListMoveIndex.m; sourceTree = "<group>"; };
 		916CEF3824942AEE1A81CE9E4B267792 /* IGListKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListKit.h; path = Source/IGListKit.h; sourceTree = "<group>"; };
 		937F3CADEFF502736757365E2555D351 /* IGListCollectionViewDelegateLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewDelegateLayout.h; path = Source/IGListCollectionViewDelegateLayout.h; sourceTree = "<group>"; };
@@ -235,73 +232,77 @@
 		9915A7C3A681E16E9B8B5D33B2741429 /* IGListBindable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindable.h; path = Source/IGListBindable.h; sourceTree = "<group>"; };
 		9952C78008F994348C014FC8B99F62BC /* IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiffable.h; path = Source/Common/IGListDiffable.h; sourceTree = "<group>"; };
 		99ECC8F5D0DE4DB15B2859E90F3BC1F7 /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
-		9B2B1B427C1F44C6912EA0E090FCC476 /* Pods-Flickr Finder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flickr Finder-frameworks.sh"; sourceTree = "<group>"; };
+		9A75A9539235EC0685F3C69C43AA745C /* Pods-Flickr Finder-Flickr FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder-Flickr FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDEF016241148CD57E237FB3B7E6A90 /* Pods-Flickr Finder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr Finder.modulemap"; sourceTree = "<group>"; };
+		9DE520E9A3E762430A70EC48D3B8F0AC /* Pods-Flickr FinderTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.staging.xcconfig"; sourceTree = "<group>"; };
 		9E35F653A107570D1EECE235281D3D46 /* IGListReloadIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadIndexPath.h; path = Source/Internal/IGListReloadIndexPath.h; sourceTree = "<group>"; };
-		A1F5F2294E1E6C4C7FD652A9D53F2CC3 /* Pods-Flickr FinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2691022D5F279DC17C480C0A7419582 /* Pods-Flickr Finder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-Info.plist"; sourceTree = "<group>"; };
 		A2DE7C3AB18F61CB26C60D5AEF456A62 /* IGListKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGListKit-dummy.m"; sourceTree = "<group>"; };
 		A2F2DCBBCBBBB023B7846D42BE825D87 /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayoutInternal.h; path = Source/Internal/IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
-		A30A82872F7DA8C2E8A79316BAAACFEC /* Pods-Flickr Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		A306B8342BACC0AE28E4361500EC919B /* Pods-Flickr FinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A34DB3343ACD11740846028AE0D7000D /* IGListBatchUpdates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBatchUpdates.m; path = Source/Internal/IGListBatchUpdates.m; sourceTree = "<group>"; };
 		A609914111CCF9AF3FC3CEC3FF8803BA /* IGListSingleSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSingleSectionController.m; path = Source/IGListSingleSectionController.m; sourceTree = "<group>"; };
 		A72F050F3E7887D08E7C1B68DF073BFE /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndexPath.m; path = Source/Common/IGListMoveIndexPath.m; sourceTree = "<group>"; };
 		AB06815DAB66AA2676F2F87A882C282D /* IGListIndexPathResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexPathResult.m; path = Source/Common/IGListIndexPathResult.m; sourceTree = "<group>"; };
-		ADB7A73F5735A23045D957F47C0D1C95 /* Pods-Flickr FinderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderTests-Info.plist"; sourceTree = "<group>"; };
-		AE4102DBAC674FC8A78CB4301BC81671 /* Pods-Flickr Finder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr Finder-dummy.m"; sourceTree = "<group>"; };
+		AE5EE765494293925597122C518616CA /* Pods-Flickr FinderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderTests-Info.plist"; sourceTree = "<group>"; };
 		AFF8ED21112C247E02C5EA79922F09A4 /* IGListSectionMap+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListSectionMap+DebugDescription.h"; path = "Source/Internal/IGListSectionMap+DebugDescription.h"; sourceTree = "<group>"; };
-		B05DDFEA0F0B3CBC65D93ED268723B77 /* Pods-Flickr FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D3621ACACD4B8A54892EB6D09A3350 /* IGListDebugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDebugger.h; path = Source/Internal/IGListDebugger.h; sourceTree = "<group>"; };
 		B471D4DF9004639A85C5ACEC7351C54A /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
+		B4AC549381F82E2D1FFD9655B3AEB8F0 /* Pods-Flickr FinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr FinderTests-umbrella.h"; sourceTree = "<group>"; };
 		B5F308E7AA58F4C02F2F94475F32628A /* IGListAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAssert.h; path = Source/Common/IGListAssert.h; sourceTree = "<group>"; };
+		B63C1C9FFDBCED3D26BE12974328A5C6 /* Pods-Flickr Finder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr Finder-umbrella.h"; sourceTree = "<group>"; };
 		B71DFF75300B9E20E7F95E4060DB1985 /* IGListDisplayHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDisplayHandler.h; path = Source/Internal/IGListDisplayHandler.h; sourceTree = "<group>"; };
 		B905C1D76CA3A40CF428F21891DC46E1 /* IGListIndexSetResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResultInternal.h; path = Source/Common/Internal/IGListIndexSetResultInternal.h; sourceTree = "<group>"; };
-		BAA6FDB8EF8AE5C4D42F9514F6102731 /* Pods-Flickr Finder.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.staging.xcconfig"; sourceTree = "<group>"; };
 		BCE7C0F86FC1B4FC8254E97C40EC44E7 /* IGListUpdatingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListUpdatingDelegate.h; path = Source/IGListUpdatingDelegate.h; sourceTree = "<group>"; };
 		BD3073B8D2036994761FF8F431F10914 /* IGListReloadDataUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadDataUpdater.h; path = Source/IGListReloadDataUpdater.h; sourceTree = "<group>"; };
 		BEB1EAA38EC3D739E2C070C47650651A /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
+		BF3080A81CC18CA16706AE7EB8D18006 /* Pods_Flickr_Finder_Flickr_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_Finder_Flickr_FinderUITests.framework; path = "Pods-Flickr Finder-Flickr FinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE1EDE41A2BAAB82C6A61A794A2826A /* Pods_Flickr_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_Finder.framework; path = "Pods-Flickr Finder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00F005AC090528C55D8ACC33012776B /* NSString+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IGListDiffable.h"; path = "Source/Common/NSString+IGListDiffable.h"; sourceTree = "<group>"; };
 		C29E724580E16C5E8BCC291FE0FD2927 /* UIScrollView+IGListKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+IGListKit.h"; path = "Source/Internal/UIScrollView+IGListKit.h"; sourceTree = "<group>"; };
 		C2E9660B15031CB5DBF6376C197D2622 /* IGListCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCompatibility.h; path = Source/Common/IGListCompatibility.h; sourceTree = "<group>"; };
 		C32CD251E37DF8E31CD2A703D79E4DA0 /* IGListAdapterProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterProxy.m; path = Source/Internal/IGListAdapterProxy.m; sourceTree = "<group>"; };
 		C352E27CF63AD87578FFEA45515B28D0 /* IGListExperiments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListExperiments.h; path = Source/Common/IGListExperiments.h; sourceTree = "<group>"; };
 		C44EE609E3EE7002A29FEF950DF80579 /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
-		C4AC20CC2F8DDEA0B2E9524B24523E18 /* Pods-Flickr Finder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr Finder.modulemap"; sourceTree = "<group>"; };
 		C8D0F68214C9C04FE3C7CBA82E263890 /* IGListBatchUpdates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdates.h; path = Source/Internal/IGListBatchUpdates.h; sourceTree = "<group>"; };
-		C950C1E97A9077ED4A2D3DA428B6B027 /* Pods-Flickr FinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr FinderUITests-umbrella.h"; sourceTree = "<group>"; };
 		C9EB841B51E7915F7B2A306CA79F2D7D /* IGListIndexSetResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexSetResult.m; path = Source/Common/IGListIndexSetResult.m; sourceTree = "<group>"; };
 		CAAEEE8C2A16FFBE6C92610F7B548FAB /* IGListGenericSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListGenericSectionController.m; path = Source/IGListGenericSectionController.m; sourceTree = "<group>"; };
 		CB5DEE7063A716F6101A8EDE8DCD39AD /* IGListAdapter+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+UICollectionView.h"; path = "Source/Internal/IGListAdapter+UICollectionView.h"; sourceTree = "<group>"; };
 		CC0E5F5F6E650273504C219D057BDE17 /* NSNumber+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+IGListDiffable.m"; path = "Source/Common/NSNumber+IGListDiffable.m"; sourceTree = "<group>"; };
 		CD6B35803D19A7ECEEC26ADE1FDB4F30 /* NSNumber+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+IGListDiffable.h"; path = "Source/Common/NSNumber+IGListDiffable.h"; sourceTree = "<group>"; };
 		CE619AC0FEA8ED685CF9B5847F3550EF /* IGListCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionView.h; path = Source/IGListCollectionView.h; sourceTree = "<group>"; };
-		D09C8CCBCECCEEFD4494932CF3371A52 /* Pods_Flickr_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_Finder.framework; path = "Pods-Flickr Finder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B4B5A65C9A151772D91156EFADA62A /* IGListAdapterUpdaterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterInternal.h; path = Source/Internal/IGListAdapterUpdaterInternal.h; sourceTree = "<group>"; };
 		D3EBB69112CB28F5CA0B7598B43611A9 /* UIScrollView+IGListKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+IGListKit.m"; path = "Source/Internal/UIScrollView+IGListKit.m"; sourceTree = "<group>"; };
-		D7301383780BF174D01CD1FBC6EE56CB /* Pods-Flickr FinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flickr FinderUITests.modulemap"; sourceTree = "<group>"; };
+		D55E967F8409B64AE919226B81434CD0 /* Pods-Flickr Finder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr Finder-dummy.m"; sourceTree = "<group>"; };
 		D8E42F36A63A9942508EFBCA7ACB46D7 /* IGListBindingSectionControllerSelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerSelectionDelegate.h; path = Source/IGListBindingSectionControllerSelectionDelegate.h; sourceTree = "<group>"; };
-		D980EB42FF2E9397B1E066564EFC230A /* Pods_Flickr_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flickr_FinderTests.framework; path = "Pods-Flickr FinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C60B0C097593AC00420ADCDF7637A8 /* IGListWorkingRangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeDelegate.h; path = Source/IGListWorkingRangeDelegate.h; sourceTree = "<group>"; };
-		DA2C19353DAA6C3E809806200E4711DD /* Pods-Flickr FinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr FinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DBE4594E062F12DD9B1D3EF20FC67883 /* IGListCollectionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionContext.h; path = Source/IGListCollectionContext.h; sourceTree = "<group>"; };
 		DDB7DDAE07BCEF3D6BB3DAA3354B0C6B /* IGListKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-umbrella.h"; sourceTree = "<group>"; };
-		E1CB268BAD88AA1A78C231AF4BB3C076 /* Pods-Flickr FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		E384F62A6B955D9D2B585477A6B3C6C9 /* IGListMoveIndexInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexInternal.h; path = Source/Common/Internal/IGListMoveIndexInternal.h; sourceTree = "<group>"; };
 		E4DB070F76EF919903C0BF83FF746BEB /* UICollectionView+IGListBatchUpdateData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+IGListBatchUpdateData.m"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.m"; sourceTree = "<group>"; };
 		E513AFA72D093B0E198DEC3032FC85E1 /* IGListAdapter+UICollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapter+UICollectionView.m"; path = "Source/Internal/IGListAdapter+UICollectionView.m"; sourceTree = "<group>"; };
 		E61CCBE9F5C67C4BB47856628DCDBF08 /* IGListGenericSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListGenericSectionController.h; path = Source/IGListGenericSectionController.h; sourceTree = "<group>"; };
 		E6A3E6A4E7E37031A72D57D6216173C5 /* IGListSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionController.m; path = Source/IGListSectionController.m; sourceTree = "<group>"; };
-		E854E8A739363AFDAE8EC169D31E28B6 /* Pods-Flickr FinderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr FinderUITests-Info.plist"; sourceTree = "<group>"; };
+		E77139567ED30B2D599DA052363040A8 /* Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9635D72C0CCFC6E12D27127E813DD5D /* IGListBindingSectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerDataSource.h; path = Source/IGListBindingSectionControllerDataSource.h; sourceTree = "<group>"; };
 		E972CCB75B6CEA1143CF99C707A961BC /* IGListReloadIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadIndexPath.m; path = Source/Internal/IGListReloadIndexPath.m; sourceTree = "<group>"; };
 		E9872C15D9EE47C7F1A26190087119B5 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
 		EB150E5EEBB8F4A08405A58809B5BF70 /* IGListBatchUpdateState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateState.h; path = Source/Internal/IGListBatchUpdateState.h; sourceTree = "<group>"; };
 		EB58074CF76AD917A172E9672FF4AF5C /* IGListAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapter.h; path = Source/IGListAdapter.h; sourceTree = "<group>"; };
+		EC7D8D84B973C8E20463811A93C6B8D7 /* Pods-Flickr Finder-Flickr FinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr Finder-Flickr FinderUITests-dummy.m"; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F21E88BBDF7EB2C21E3589C48A825C4A /* Pods-Flickr FinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flickr FinderTests-dummy.m"; sourceTree = "<group>"; };
+		EECA9360DB0A1E6D44DAFA88AB86AE9C /* Pods-Flickr Finder-Flickr FinderUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder-Flickr FinderUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		F4BDB75075D0EA56F34EB8302A9368AF /* Pods-Flickr Finder-Flickr FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder-Flickr FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F2AC07504D4B5C8BB097593F89A568 /* Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F554D0A25133263678C4C3E6A861E7FE /* Pods-Flickr Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr Finder.debug.xcconfig"; sourceTree = "<group>"; };
 		F603FED95DFD3D82A03590F761C2E669 /* IGListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-prefix.pch"; sourceTree = "<group>"; };
+		F666C1D3E9B8A8F7A5032B5BC4C52A19 /* Pods-Flickr Finder-Flickr FinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flickr Finder-Flickr FinderUITests-umbrella.h"; sourceTree = "<group>"; };
 		FAA9F694BBA1EDE81FFCF28752457AD7 /* IGListMoveIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPath.h; path = Source/Common/IGListMoveIndexPath.h; sourceTree = "<group>"; };
-		FC7AB62F09555E7F3DB49926AB0C213C /* Pods-Flickr FinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flickr FinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC25A91F8AA53EEE92E0AD8BF08EE6A5 /* Pods-Flickr FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flickr FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD145E5D62D645F7F360A385253BC01 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD06453F5CA453CA13932583B171214E /* IGListTransitionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListTransitionDelegate.h; path = Source/IGListTransitionDelegate.h; sourceTree = "<group>"; };
+		FDADB978C08ED7AE3E0BD890694FA1E8 /* Pods-Flickr Finder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flickr Finder-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +312,14 @@
 			files = (
 				738BB53699A8562930F63FE87D27ECB9 /* Foundation.framework in Frameworks */,
 				8067C390C833A8A080F2293C63818EF8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8A9B414B108D5914289107530B9341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720E18CEE69A94F6AE73B1948ADE412A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +339,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE67018B0CF0C7331774A5F723DA4D3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A94BE968D9E03BFC6F501BBAF80F1F2B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -349,6 +350,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		183CA2A5D42521229CFE5E848F6F7FBD /* Pods-Flickr Finder-Flickr FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				001D3921725BD124438F6FF5C12E408B /* Pods-Flickr Finder-Flickr FinderUITests.modulemap */,
+				F4F2AC07504D4B5C8BB097593F89A568 /* Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.markdown */,
+				E77139567ED30B2D599DA052363040A8 /* Pods-Flickr Finder-Flickr FinderUITests-acknowledgements.plist */,
+				EC7D8D84B973C8E20463811A93C6B8D7 /* Pods-Flickr Finder-Flickr FinderUITests-dummy.m */,
+				38127DE2AE73833F8A23C899C0561B64 /* Pods-Flickr Finder-Flickr FinderUITests-frameworks.sh */,
+				22B5DE008D5BAF728B690C28A248C70A /* Pods-Flickr Finder-Flickr FinderUITests-Info.plist */,
+				F666C1D3E9B8A8F7A5032B5BC4C52A19 /* Pods-Flickr Finder-Flickr FinderUITests-umbrella.h */,
+				F4BDB75075D0EA56F34EB8302A9368AF /* Pods-Flickr Finder-Flickr FinderUITests.debug.xcconfig */,
+				9A75A9539235EC0685F3C69C43AA745C /* Pods-Flickr Finder-Flickr FinderUITests.release.xcconfig */,
+				EECA9360DB0A1E6D44DAFA88AB86AE9C /* Pods-Flickr Finder-Flickr FinderUITests.staging.xcconfig */,
+			);
+			name = "Pods-Flickr Finder-Flickr FinderUITests";
+			path = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests";
+			sourceTree = "<group>";
+		};
+		2132742475BC7B0C59364C7655F65029 /* Pods-Flickr Finder */ = {
+			isa = PBXGroup;
+			children = (
+				9DDEF016241148CD57E237FB3B7E6A90 /* Pods-Flickr Finder.modulemap */,
+				1B1789A8F94A38D08DD300DAE42FEEA2 /* Pods-Flickr Finder-acknowledgements.markdown */,
+				48AD2B5A76B78CED160D2AE4BFAEF589 /* Pods-Flickr Finder-acknowledgements.plist */,
+				D55E967F8409B64AE919226B81434CD0 /* Pods-Flickr Finder-dummy.m */,
+				FDADB978C08ED7AE3E0BD890694FA1E8 /* Pods-Flickr Finder-frameworks.sh */,
+				A2691022D5F279DC17C480C0A7419582 /* Pods-Flickr Finder-Info.plist */,
+				B63C1C9FFDBCED3D26BE12974328A5C6 /* Pods-Flickr Finder-umbrella.h */,
+				F554D0A25133263678C4C3E6A861E7FE /* Pods-Flickr Finder.debug.xcconfig */,
+				3C6E95C22899ED2D87AC13502288DC83 /* Pods-Flickr Finder.release.xcconfig */,
+				7AEC7B4DB7F2E3E5F56E8FE39C4ADDDF /* Pods-Flickr Finder.staging.xcconfig */,
+			);
+			name = "Pods-Flickr Finder";
+			path = "Target Support Files/Pods-Flickr Finder";
+			sourceTree = "<group>";
+		};
 		2A1AC2C3A396D0CFF6348F5D5759F8EE /* Diffing */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,39 +393,32 @@
 			name = Diffing;
 			sourceTree = "<group>";
 		};
-		2FA640F48EFDB61101013C8F698192D8 /* Pods-Flickr FinderUITests */ = {
+		3AC9829F5419ABA6E28E30F2944FB3CA /* Pods-Flickr FinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7301383780BF174D01CD1FBC6EE56CB /* Pods-Flickr FinderUITests.modulemap */,
-				DA2C19353DAA6C3E809806200E4711DD /* Pods-Flickr FinderUITests-acknowledgements.markdown */,
-				A1F5F2294E1E6C4C7FD652A9D53F2CC3 /* Pods-Flickr FinderUITests-acknowledgements.plist */,
-				645F51AAE9A2DE922AA6975D6666D378 /* Pods-Flickr FinderUITests-dummy.m */,
-				E854E8A739363AFDAE8EC169D31E28B6 /* Pods-Flickr FinderUITests-Info.plist */,
-				C950C1E97A9077ED4A2D3DA428B6B027 /* Pods-Flickr FinderUITests-umbrella.h */,
-				29EA282D9BDF7927DAF1BD749E3C0968 /* Pods-Flickr FinderUITests.debug.xcconfig */,
-				B05DDFEA0F0B3CBC65D93ED268723B77 /* Pods-Flickr FinderUITests.release.xcconfig */,
-				46FB4BC118E1C6C300168966B168E445 /* Pods-Flickr FinderUITests.staging.xcconfig */,
+				59BE5B5CD1714E3D32BD3680FB44B882 /* Pods-Flickr FinderTests.modulemap */,
+				1E90060E935FB24F2176024152A38E1D /* Pods-Flickr FinderTests-acknowledgements.markdown */,
+				A306B8342BACC0AE28E4361500EC919B /* Pods-Flickr FinderTests-acknowledgements.plist */,
+				1BFD76735E0293019D421F2E68B15B88 /* Pods-Flickr FinderTests-dummy.m */,
+				AE5EE765494293925597122C518616CA /* Pods-Flickr FinderTests-Info.plist */,
+				B4AC549381F82E2D1FFD9655B3AEB8F0 /* Pods-Flickr FinderTests-umbrella.h */,
+				FC25A91F8AA53EEE92E0AD8BF08EE6A5 /* Pods-Flickr FinderTests.debug.xcconfig */,
+				6526FB7C38D035A8AEDD9D2DBBE6EEB6 /* Pods-Flickr FinderTests.release.xcconfig */,
+				9DE520E9A3E762430A70EC48D3B8F0AC /* Pods-Flickr FinderTests.staging.xcconfig */,
 			);
-			name = "Pods-Flickr FinderUITests";
-			path = "Target Support Files/Pods-Flickr FinderUITests";
+			name = "Pods-Flickr FinderTests";
+			path = "Target Support Files/Pods-Flickr FinderTests";
 			sourceTree = "<group>";
 		};
-		69B973F41818494BBA8E142A2CF5E301 /* Pods-Flickr Finder */ = {
+		4C6CD28D4F63ABA63D59E7FD758A121E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC20CC2F8DDEA0B2E9524B24523E18 /* Pods-Flickr Finder.modulemap */,
-				6D0B75D1FD0683D0C3E8AFBD235C7408 /* Pods-Flickr Finder-acknowledgements.markdown */,
-				191F151C61D86AFB204D5A874A00832E /* Pods-Flickr Finder-acknowledgements.plist */,
-				AE4102DBAC674FC8A78CB4301BC81671 /* Pods-Flickr Finder-dummy.m */,
-				9B2B1B427C1F44C6912EA0E090FCC476 /* Pods-Flickr Finder-frameworks.sh */,
-				299D5A18C5B784E6E2B3A8111BCD5012 /* Pods-Flickr Finder-Info.plist */,
-				7DACB0D0BDD52EA3A2466BC71E7B00F3 /* Pods-Flickr Finder-umbrella.h */,
-				A30A82872F7DA8C2E8A79316BAAACFEC /* Pods-Flickr Finder.debug.xcconfig */,
-				709ACB3815EB92540C51091E7A39A56A /* Pods-Flickr Finder.release.xcconfig */,
-				BAA6FDB8EF8AE5C4D42F9514F6102731 /* Pods-Flickr Finder.staging.xcconfig */,
+				FCD145E5D62D645F7F360A385253BC01 /* IGListKit.framework */,
+				BFE1EDE41A2BAAB82C6A61A794A2826A /* Pods_Flickr_Finder.framework */,
+				BF3080A81CC18CA16706AE7EB8D18006 /* Pods_Flickr_Finder_Flickr_FinderUITests.framework */,
+				1675AB94034306DC5FF0FB3400BDCF05 /* Pods_Flickr_FinderTests.framework */,
 			);
-			name = "Pods-Flickr Finder";
-			path = "Target Support Files/Pods-Flickr Finder";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6DC3475067A306B0E247C69503C1B407 /* Default */ = {
@@ -505,23 +535,12 @@
 			name = Default;
 			sourceTree = "<group>";
 		};
-		8036D78B240542369A7E9637F888A19B /* Products */ = {
+		8C953543ACFE8ABB625BF4376143701F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D641D96432351E1444F459FB8D5F29E /* IGListKit.framework */,
-				D09C8CCBCECCEEFD4494932CF3371A52 /* Pods_Flickr_Finder.framework */,
-				D980EB42FF2E9397B1E066564EFC230A /* Pods_Flickr_FinderTests.framework */,
-				7B204C4DC0A76683A5B2C46358F6135A /* Pods_Flickr_FinderUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9C8322C05698D06735BD096AB1E99D59 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				69B973F41818494BBA8E142A2CF5E301 /* Pods-Flickr Finder */,
-				CAE759BE3A652FCA3EFFCD4C0180AA26 /* Pods-Flickr FinderTests */,
-				2FA640F48EFDB61101013C8F698192D8 /* Pods-Flickr FinderUITests */,
+				2132742475BC7B0C59364C7655F65029 /* Pods-Flickr Finder */,
+				183CA2A5D42521229CFE5E848F6F7FBD /* Pods-Flickr Finder-Flickr FinderUITests */,
+				3AC9829F5419ABA6E28E30F2944FB3CA /* Pods-Flickr FinderTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -548,31 +567,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CAE759BE3A652FCA3EFFCD4C0180AA26 /* Pods-Flickr FinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				161909BB4FAF12FE0E573CB1FC0A516C /* Pods-Flickr FinderTests.modulemap */,
-				FC7AB62F09555E7F3DB49926AB0C213C /* Pods-Flickr FinderTests-acknowledgements.markdown */,
-				72ACB847383DECD96A35335F6D33CF94 /* Pods-Flickr FinderTests-acknowledgements.plist */,
-				F21E88BBDF7EB2C21E3589C48A825C4A /* Pods-Flickr FinderTests-dummy.m */,
-				ADB7A73F5735A23045D957F47C0D1C95 /* Pods-Flickr FinderTests-Info.plist */,
-				426531FA3AF04E9EBDFD1D2E03E75869 /* Pods-Flickr FinderTests-umbrella.h */,
-				7335FB38DFB0C3C60F0E0D4FA72C65D7 /* Pods-Flickr FinderTests.debug.xcconfig */,
-				E1CB268BAD88AA1A78C231AF4BB3C076 /* Pods-Flickr FinderTests.release.xcconfig */,
-				14A60DF88737C82042FB883503C5E5A2 /* Pods-Flickr FinderTests.staging.xcconfig */,
-			);
-			name = "Pods-Flickr FinderTests";
-			path = "Target Support Files/Pods-Flickr FinderTests";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				BC194F713144B93FB81FB505B2314D12 /* Pods */,
-				8036D78B240542369A7E9637F888A19B /* Products */,
-				9C8322C05698D06735BD096AB1E99D59 /* Targets Support Files */,
+				4C6CD28D4F63ABA63D59E7FD758A121E /* Products */,
+				8C953543ACFE8ABB625BF4376143701F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -686,11 +688,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D44A2C161B1D6B2F035BC68844BF7838 /* Headers */ = {
+		D3541D2FEFEE8210B311EAF7C3E094BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499241C6218543D990076D12927FF91C /* Pods-Flickr FinderUITests-umbrella.h in Headers */,
+				20B897B0E6B0CE43D59CC3D17257EBFD /* Pods-Flickr Finder-Flickr FinderUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,7 +723,7 @@
 			);
 			name = "Pods-Flickr FinderTests";
 			productName = "Pods-Flickr FinderTests";
-			productReference = D980EB42FF2E9397B1E066564EFC230A /* Pods_Flickr_FinderTests.framework */;
+			productReference = 1675AB94034306DC5FF0FB3400BDCF05 /* Pods_Flickr_FinderTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1573A101CF75EC169E0DBC17F454CF9D /* Pods-Flickr Finder */ = {
@@ -740,7 +742,7 @@
 			);
 			name = "Pods-Flickr Finder";
 			productName = "Pods-Flickr Finder";
-			productReference = D09C8CCBCECCEEFD4494932CF3371A52 /* Pods_Flickr_Finder.framework */;
+			productReference = BFE1EDE41A2BAAB82C6A61A794A2826A /* Pods_Flickr_Finder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4037B0EEEA72C4D03DFE738C64AE6171 /* IGListKit */ = {
@@ -758,26 +760,26 @@
 			);
 			name = IGListKit;
 			productName = IGListKit;
-			productReference = 8D641D96432351E1444F459FB8D5F29E /* IGListKit.framework */;
+			productReference = FCD145E5D62D645F7F360A385253BC01 /* IGListKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9223A7EDA8EDD087223CB612E4F30BE0 /* Pods-Flickr FinderUITests */ = {
+		B2099ACE1BFB82502579AB3421730AE2 /* Pods-Flickr Finder-Flickr FinderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 857BACBBDACAC49077001B2359F34802 /* Build configuration list for PBXNativeTarget "Pods-Flickr FinderUITests" */;
+			buildConfigurationList = D2DC408DC440B2DA74B29778455B4A37 /* Build configuration list for PBXNativeTarget "Pods-Flickr Finder-Flickr FinderUITests" */;
 			buildPhases = (
-				D44A2C161B1D6B2F035BC68844BF7838 /* Headers */,
-				F25C37FACD0B5E34E9BDDA8597402232 /* Sources */,
-				DE67018B0CF0C7331774A5F723DA4D3B /* Frameworks */,
-				6AA9E81678D25CA59F2D729589AC0C33 /* Resources */,
+				D3541D2FEFEE8210B311EAF7C3E094BA /* Headers */,
+				30779F37FBDD66B3873CFD3F41C6525C /* Sources */,
+				2B8A9B414B108D5914289107530B9341 /* Frameworks */,
+				B595654D215C8DCB212E0069A687E23F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E0B483E1AE3E86452B769DD98A3B16F /* PBXTargetDependency */,
+				BC26FC15E001AFBA5583C56966EB97DC /* PBXTargetDependency */,
 			);
-			name = "Pods-Flickr FinderUITests";
-			productName = "Pods-Flickr FinderUITests";
-			productReference = 7B204C4DC0A76683A5B2C46358F6135A /* Pods_Flickr_FinderUITests.framework */;
+			name = "Pods-Flickr Finder-Flickr FinderUITests";
+			productName = "Pods-Flickr Finder-Flickr FinderUITests";
+			productReference = BF3080A81CC18CA16706AE7EB8D18006 /* Pods_Flickr_Finder_Flickr_FinderUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -797,14 +799,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8036D78B240542369A7E9637F888A19B /* Products */;
+			productRefGroup = 4C6CD28D4F63ABA63D59E7FD758A121E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4037B0EEEA72C4D03DFE738C64AE6171 /* IGListKit */,
 				1573A101CF75EC169E0DBC17F454CF9D /* Pods-Flickr Finder */,
+				B2099ACE1BFB82502579AB3421730AE2 /* Pods-Flickr Finder-Flickr FinderUITests */,
 				060AC01C8237F1C23FEE2E5246F7A3FB /* Pods-Flickr FinderTests */,
-				9223A7EDA8EDD087223CB612E4F30BE0 /* Pods-Flickr FinderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -831,7 +833,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AA9E81678D25CA59F2D729589AC0C33 /* Resources */ = {
+		B595654D215C8DCB212E0069A687E23F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -841,6 +843,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		30779F37FBDD66B3873CFD3F41C6525C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31383F27C9DB78D62A43771CF315950 /* Pods-Flickr Finder-Flickr FinderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8CE3A57A9748FDC5FE14E48A5125512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -854,14 +864,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				292B7D7E2D9F0DCBA0AEBC7BED70EBE7 /* Pods-Flickr FinderTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F25C37FACD0B5E34E9BDDA8597402232 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9DB088035446537ABBC8CAC80AE55EF /* Pods-Flickr FinderUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,12 +914,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9E0B483E1AE3E86452B769DD98A3B16F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Flickr Finder";
-			target = 1573A101CF75EC169E0DBC17F454CF9D /* Pods-Flickr Finder */;
-			targetProxy = 60E9424CF3DFBB0EF6EB2C2C766B7D81 /* PBXContainerItemProxy */;
-		};
 		AEE3169BD622B84A173DEEDA8DCD6D69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGListKit;
@@ -930,12 +926,18 @@
 			target = 1573A101CF75EC169E0DBC17F454CF9D /* Pods-Flickr Finder */;
 			targetProxy = 41E8AE6BA2FBCC83FA99159A3BABB3D6 /* PBXContainerItemProxy */;
 		};
+		BC26FC15E001AFBA5583C56966EB97DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			target = 4037B0EEEA72C4D03DFE738C64AE6171 /* IGListKit */;
+			targetProxy = AA06252D294EDA0B2BC1CC1B3CC48BC9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		046D0B836E8AF81EBC2D3D15E908F423 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A30A82872F7DA8C2E8A79316BAAACFEC /* Pods-Flickr Finder.debug.xcconfig */;
+			baseConfigurationReference = F554D0A25133263678C4C3E6A861E7FE /* Pods-Flickr Finder.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -973,7 +975,7 @@
 		};
 		0594E388F9FC8F37717A64015745B427 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709ACB3815EB92540C51091E7A39A56A /* Pods-Flickr Finder.release.xcconfig */;
+			baseConfigurationReference = 3C6E95C22899ED2D87AC13502288DC83 /* Pods-Flickr Finder.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1072,7 +1074,7 @@
 		};
 		1D9A8F7D44F809104FBC3DA77A363038 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A60DF88737C82042FB883503C5E5A2 /* Pods-Flickr FinderTests.staging.xcconfig */;
+			baseConfigurationReference = 9DE520E9A3E762430A70EC48D3B8F0AC /* Pods-Flickr FinderTests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1218,7 +1220,7 @@
 		};
 		809AC08F6D3F21087BBAEB0DE9D912CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1CB268BAD88AA1A78C231AF4BB3C076 /* Pods-Flickr FinderTests.release.xcconfig */;
+			baseConfigurationReference = 6526FB7C38D035A8AEDD9D2DBBE6EEB6 /* Pods-Flickr FinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1255,9 +1257,9 @@
 			};
 			name = Release;
 		};
-		8BD82D12A7D3CD03763A1202199D25EF /* Release */ = {
+		884F2D3D761AFB9229BC2C580D4B8290 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B05DDFEA0F0B3CBC65D93ED268723B77 /* Pods-Flickr FinderUITests.release.xcconfig */;
+			baseConfigurationReference = EECA9360DB0A1E6D44DAFA88AB86AE9C /* Pods-Flickr Finder-Flickr FinderUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1270,7 +1272,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1279,46 +1281,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F8113B8C20AE558F7FC30144629D58C /* Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46FB4BC118E1C6C300168966B168E445 /* Pods-Flickr FinderUITests.staging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1332,6 +1295,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Staging;
+		};
+		8E70A8E8DF7D8A38A4388DBA36AFD24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A75A9539235EC0685F3C69C43AA745C /* Pods-Flickr Finder-Flickr FinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1457,9 +1459,9 @@
 			};
 			name = Debug;
 		};
-		D38F5835A41F2461BACFA73513BE02F4 /* Debug */ = {
+		C4724AC3F964C8F254BC0A5A63878384 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EA282D9BDF7927DAF1BD749E3C0968 /* Pods-Flickr FinderUITests.debug.xcconfig */;
+			baseConfigurationReference = F4BDB75075D0EA56F34EB8302A9368AF /* Pods-Flickr Finder-Flickr FinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1472,7 +1474,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1481,7 +1483,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flickr FinderUITests/Pods-Flickr FinderUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Flickr Finder-Flickr FinderUITests/Pods-Flickr Finder-Flickr FinderUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1497,7 +1499,7 @@
 		};
 		E132338E6BF51D5F1D0797785B146E3A /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA6FDB8EF8AE5C4D42F9514F6102731 /* Pods-Flickr Finder.staging.xcconfig */;
+			baseConfigurationReference = 7AEC7B4DB7F2E3E5F56E8FE39C4ADDDF /* Pods-Flickr Finder.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1536,7 +1538,7 @@
 		};
 		F6823F329A3EB6C23F03C2E846760772 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7335FB38DFB0C3C60F0E0D4FA72C65D7 /* Pods-Flickr FinderTests.debug.xcconfig */;
+			baseConfigurationReference = FC25A91F8AA53EEE92E0AD8BF08EE6A5 /* Pods-Flickr FinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1595,22 +1597,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		857BACBBDACAC49077001B2359F34802 /* Build configuration list for PBXNativeTarget "Pods-Flickr FinderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D38F5835A41F2461BACFA73513BE02F4 /* Debug */,
-				8BD82D12A7D3CD03763A1202199D25EF /* Release */,
-				8F8113B8C20AE558F7FC30144629D58C /* Staging */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CE233ED84DB48386DBC49709FC28CA77 /* Build configuration list for PBXNativeTarget "Pods-Flickr Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				046D0B836E8AF81EBC2D3D15E908F423 /* Debug */,
 				0594E388F9FC8F37717A64015745B427 /* Release */,
 				E132338E6BF51D5F1D0797785B146E3A /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DC408DC440B2DA74B29778455B4A37 /* Build configuration list for PBXNativeTarget "Pods-Flickr Finder-Flickr FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4724AC3F964C8F254BC0A5A63878384 /* Debug */,
+				8E70A8E8DF7D8A38A4388DBA36AFD24C /* Release */,
+				884F2D3D761AFB9229BC2C580D4B8290 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

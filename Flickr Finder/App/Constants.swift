@@ -10,4 +10,20 @@ import Foundation
 
 struct Constants {
     
+    static var FLICKR_API_KEY: String {
+        return infoValueOfType(for: .FlickrApiKey) ?? ""
+    }
+    
+    static var BASE_URL: String {
+        return infoValueOfType(for: .BaseUrl) ?? ""
+    }
+    
+    enum InfoItemKeys: String {
+        case FlickrApiKey
+        case BaseUrl
+    }
+    
+    static func infoValueOfType<T>(for key: InfoItemKeys) -> T? {
+        return Bundle.main.infoDictionary?[key.rawValue] as? T
+    }
 }

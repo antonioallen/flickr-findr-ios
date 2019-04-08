@@ -54,23 +54,18 @@ extension FeedSectionController: ListWorkingRangeDelegate {
         
         print("Downloading image \(urlString) for section \(self.section)")
         
-        task = URLSession.shared.dataTask(with: url) { data, _, error in
+        UIImage.downloadImage(url: url) { (image, error) in
             
-            guard let imageData = data, let image = UIImage(data: imageData) else {
-                return print("Error downloading \(urlString): " + String(describing: error))
+            guard let image = image else {
+                return print("Unable to get photo \(urlString): " + String(describing: error))
             }
             
-            DispatchQueue.main.async {
-                self.data.image = image
-                
-                if let cell = self.collectionContext?.cellForItem(at: 0, sectionController: self) as? FeedPhotoCell {
-                    cell.setData(data: self.data)
-                }
+            self.data.image = image
+            
+            if let cell = self.collectionContext?.cellForItem(at: 0, sectionController: self) as? FeedPhotoCell {
+                cell.setData(data: self.data)
             }
         }
-        
-        task?.resume()
-        
     }
     
     func listAdapter(_ listAdapter: ListAdapter,

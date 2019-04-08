@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9223A7EDA8EDD087223CB612E4F30BE0"
-               BuildableName = "Pods_Flickr_FinderUITests.framework"
-               BlueprintName = "Pods-Flickr FinderUITests"
+               BlueprintIdentifier = "B2099ACE1BFB82502579AB3421730AE2"
+               BuildableName = "Pods_Flickr_Finder_Flickr_FinderUITests.framework"
+               BlueprintName = "Pods-Flickr Finder-Flickr FinderUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9223A7EDA8EDD087223CB612E4F30BE0"
-            BuildableName = "Pods_Flickr_FinderUITests.framework"
-            BlueprintName = "Pods-Flickr FinderUITests"
+            BlueprintIdentifier = "B2099ACE1BFB82502579AB3421730AE2"
+            BuildableName = "Pods_Flickr_Finder_Flickr_FinderUITests.framework"
+            BlueprintName = "Pods-Flickr Finder-Flickr FinderUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

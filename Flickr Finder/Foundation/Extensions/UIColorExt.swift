@@ -14,7 +14,7 @@ extension UIColor {
         return CIColor(color: self)
     }
     
-    func alpha(alpha:CGFloat) -> UIColor {
+    func alpha(alpha: CGFloat) -> UIColor {
         let coreImageColor = self.coreImageColor
         return UIColor(red: coreImageColor.red,
                        green: coreImageColor.green,

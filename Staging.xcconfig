@@ -13,3 +13,5 @@ APP_NAME = FF Staging
 APP_VERSION = 1.0
 APP_BUNDLE_ID = com.antonioallen.Flickr-Finder-Staging
 APP_LOGO = logo_main_production
+FLICK_API_KEY = 1508443e49213ff84d566777dc211f2a
+BASE_URL = api.flickr.com/services/rest/

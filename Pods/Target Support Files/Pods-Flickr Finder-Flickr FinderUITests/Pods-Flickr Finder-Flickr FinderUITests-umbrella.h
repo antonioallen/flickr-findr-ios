@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Flickr_FinderUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Flickr_FinderUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_Flickr_Finder_Flickr_FinderUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Flickr_Finder_Flickr_FinderUITestsVersionString[];
 
