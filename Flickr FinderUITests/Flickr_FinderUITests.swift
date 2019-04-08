@@ -40,7 +40,7 @@ class FlickrFinderUITests: XCTestCase {
         sleep(3)
         
         // Navigate back to home
-        app.navigationBars["bleacher report"].buttons["Flickr Findr"].tap()
+        app.navigationBars["bleacher report"].buttons["Trending"].tap()
         
     }
 
