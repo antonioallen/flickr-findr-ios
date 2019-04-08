@@ -4,10 +4,10 @@ This app is a simple way to explore photos using the [Flickr API](https://www.fl
 
 ## Requirements
 
-* Xcode 10.0+
-* Swift 4.0+
-*[CocoaPods](https://cocoapods.org/)
-* We running this project please use the `Flickr Finder.xcworkspace` file. Run `pod repo update` to update the pods. 
+- Xcode 10.0+
+- Swift 4.0+
+- [CocoaPods](https://cocoapods.org/)
+- We running this project please use the `Flickr Finder.xcworkspace` file. Run `pod repo update` to update the pods. 
 
 ## Features
 
@@ -27,5 +27,9 @@ This app is a simple way to explore photos using the [Flickr API](https://www.fl
 ### [IGListKit](https://github.com/Instagram/IGListKit)
 - IGListKit is the only library used in this project. The reason I chose to use this library is because of its diffing capabilities and abstraction to create flexible lists on the UICollectionView. This is the same library used in the Instagram App.
 
+## Screenshots
 
-
+![Screenshot 1](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1850.PNG)
+![Screenshot 2](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1851.PNG)
+![Screenshot 3](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1852.PNG)
+![Screenshot 4](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1853.PNG)
