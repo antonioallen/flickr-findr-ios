@@ -29,6 +29,6 @@ This app is a simple way to explore photos using the [Flickr API](https://www.fl
 
 ## Screenshots
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1850.PNG" align="left" height="812" width="375" >
-![Screenshot 2](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1851.PNG)
-![Screenshot 3](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1852.PNG)
-![Screenshot 4](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1853.PNG)
+<img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1851.PNG" align="left" height="812" width="375" >
+<img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1852.PNG" align="left" height="812" width="375" >
+<img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1853.PNG" align="left" height="812" width="375" >
