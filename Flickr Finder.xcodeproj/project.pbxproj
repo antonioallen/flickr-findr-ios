@@ -971,6 +971,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84850B799A8DDCBECE78EEE4 /* Pods-Flickr Finder.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZ7CSMJG22;
@@ -990,6 +991,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13851C63D72739DE915D6573 /* Pods-Flickr Finder.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZ7CSMJG22;
@@ -1157,6 +1159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24F1614E10FF40E954FA2077 /* Pods-Flickr Finder.staging.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZ7CSMJG22;

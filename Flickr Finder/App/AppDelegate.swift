@@ -33,6 +33,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Start coordinator
         appCoordinator.start()
         
+        // Set image cache limit
+        FFImageCache.totalCostLimit = 150 * 8 * 1024 * 1024
+        
         return true
     }
     
