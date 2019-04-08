@@ -7,7 +7,9 @@ This app is a simple way to explore photos using the [Flickr API](https://www.fl
 - Xcode 10.0+
 - Swift 4.0+
 - [CocoaPods](https://cocoapods.org/)
-- We running this project please use the `Flickr Finder.xcworkspace` file. Run `pod repo update` to update the pods. 
+- [SwiftLint](https://github.com/realm/SwiftLint)
+- We running this project please use the `Flickr Finder.xcworkspace` file. Run `pod repo update` to update the pods.
+- You may get an error if you don't have swift lint installed. Install it by running the following command `brew install swiftlint`
 
 ## Features
 
@@ -22,6 +24,7 @@ This app is a simple way to explore photos using the [Flickr API](https://www.fl
 - Abstracted networking interface for flexibility and testability.
 - Multiple configurations setup
 - Localized
+- Swift Lint for consistent coding style and best practices
 
 ## Libraries Used
 ### [IGListKit](https://github.com/Instagram/IGListKit)
