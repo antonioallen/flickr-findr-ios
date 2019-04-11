@@ -41,13 +41,19 @@ The initial version of this application was to demonstrate foundational concepts
 - Rework `DetailViewController` for a more optimal zooming experience and improve the UX by allowing users to swipe between photos.
 - Possibly use Twitter API to see trending tags or searches instead of having a hardcoded dataset of 3. 
 
+## Profiling
+
+### Core Animations
+![Core Animations](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/Instruments_CoreAnimation.png)
+
+### Allocations
+![Allocations](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/Instruments_Allocations.png)
+
+### Time Profiler
+![Time Profiler](https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/Instruments_TimeProfiler.png)
+
 ## Screenshots
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1850.PNG" align="left" height="812" width="375" >
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1851.PNG" align="left" height="812" width="375" >
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1852.PNG" align="left" height="812" width="375" >
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1853.PNG" align="left" height="812" width="375" >
-</br>
-
-## Profiling
-
-### Core Animations
