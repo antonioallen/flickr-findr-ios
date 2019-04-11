@@ -46,6 +46,7 @@ The initial version of this application was to demonstrate foundational concepts
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1851.PNG" align="left" height="812" width="375" >
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1852.PNG" align="left" height="812" width="375" >
 <img src="https://github.com/antonioallen/flickr-findr-ios/blob/master/Screenshots/IMG_1853.PNG" align="left" height="812" width="375" >
+</br>
 
 ## Profiling
 
