@@ -153,7 +153,7 @@ extension FlickrRouter {
         request.httpMethod = method.rawValue
         request.cachePolicy = URLRequest.CachePolicy.reloadIgnoringCacheData
         request.allowsCellularAccess = true
-        request.timeoutInterval = 10000
+        request.timeoutInterval = 10
         
         return request
     }
