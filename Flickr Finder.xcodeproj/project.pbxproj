@@ -46,7 +46,6 @@
 		55E1D3BB2259C161003D3249 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3B82259C161003D3249 /* CoordinatorFactory.swift */; };
 		55E1D3BC2259C161003D3249 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3B92259C161003D3249 /* Coordinator.swift */; };
 		55E1D3BF2259C19E003D3249 /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3BE2259C19E003D3249 /* NSObjectExt.swift */; };
-		55E1D3C12259C1C7003D3249 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3C02259C1C7003D3249 /* StringExt.swift */; };
 		55E1D3C52259C28E003D3249 /* FFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3C42259C28E003D3249 /* FFViewController.swift */; };
 		55E1D3C82259C786003D3249 /* FeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3C72259C786003D3249 /* FeedCoordinator.swift */; };
 		55E1D3CB2259CFA4003D3249 /* FeedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1D3CA2259CFA4003D3249 /* FeedPhotoCell.swift */; };
@@ -135,7 +134,6 @@
 		55E1D3B82259C161003D3249 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 		55E1D3B92259C161003D3249 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		55E1D3BE2259C19E003D3249 /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
-		55E1D3C02259C1C7003D3249 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		55E1D3C42259C28E003D3249 /* FFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewController.swift; sourceTree = "<group>"; };
 		55E1D3C72259C786003D3249 /* FeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCoordinator.swift; sourceTree = "<group>"; };
 		55E1D3CA2259CFA4003D3249 /* FeedPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPhotoCell.swift; sourceTree = "<group>"; };
@@ -442,7 +440,6 @@
 			isa = PBXGroup;
 			children = (
 				55E1D3BE2259C19E003D3249 /* NSObjectExt.swift */,
-				55E1D3C02259C1C7003D3249 /* StringExt.swift */,
 				55E1D3CF2259D4B2003D3249 /* UICollectionReusableViewExt.swift */,
 				55E1D3D82259D8CB003D3249 /* UIViewControllerExt.swift */,
 				55E1D3DE2259DDA4003D3249 /* UIColorExt.swift */,
@@ -773,7 +770,6 @@
 				556B1821225BA2A200FD7A1E /* PhotoTagViewController.swift in Sources */,
 				55C51689225A62A7006D1045 /* FlickrPhotoResponse.swift in Sources */,
 				55C51685225A5F87006D1045 /* FlickrPhoto.swift in Sources */,
-				55E1D3C12259C1C7003D3249 /* StringExt.swift in Sources */,
 				55C51692225A9E42006D1045 /* DetailViewController.swift in Sources */,
 				55C5168F225A96EA006D1045 /* DispatchQueueExt.swift in Sources */,
 				55E1D3CE2259D3CC003D3249 /* FeedSectionController.swift in Sources */,
